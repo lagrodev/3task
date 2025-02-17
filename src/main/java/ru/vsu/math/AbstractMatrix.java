@@ -53,11 +53,9 @@ public abstract class AbstractMatrix {
 
     protected abstract AbstractMatrix createInstance(float[][] elements);
 
-
     protected abstract AbstractMatrix createInstance();
 
     protected abstract AbstractVector instantiateVector();
-
 
     /**
      * какой длины матрица?
