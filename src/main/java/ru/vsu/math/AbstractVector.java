@@ -129,8 +129,6 @@ public abstract class AbstractVector {
         this.components = subVector(other).components;
     }
 
-    // я дол сих пор хз. что это...
-    // todo понять, что это нахуй такое и надо ли оно :? ... Хз что это, но пусть будет.. мало ли
     public void sub(AbstractVector first, AbstractVector second) {
         equalsLength(first);
         equalsLength(second);
